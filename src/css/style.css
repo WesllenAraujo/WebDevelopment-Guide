@@ -1,0 +1,109 @@
+* {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #2e2e2e;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#content {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1rem;
+}
+#header {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #8c4aad;
+    margin-bottom: 2rem;
+}
+#header-title {
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+#header-menu {
+    display: flex;
+    gap: 4rem;
+    font-size: 1.5rem;
+}
+.header-anchor {
+    transition: .5s;
+}
+.header-anchor:hover {
+    color: #ab8ddc;
+    text-decoration: underline;
+}
+#about {
+    text-align: center;
+}
+#about-title {
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0 0 2rem 1rem;
+}
+#paragraph-group {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#guides-group {
+    display: flex;
+    gap: 1rem;
+}
+#learnings-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.about-paragraph {
+    font-size: 1.5rem;
+    width: 30%;
+}
+.guides {
+    margin: 2rem 0;
+    width: 40%;
+}
+.guides-images {
+    width: 100%;
+    margin: 1rem 0;
+}
+.guides-titles {
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 1rem 2rem;
+}
+.guides-text {
+    font-size: 1.2rem;
+}
+#titles-menu {
+    list-style-type: circle;
+    margin-left: 2rem;
+}
+#titles-guide-group {
+    margin: 1rem 0;
+}
+#titles-guide-h1 {
+    font-size: 32pt;
+}
+#titles-guide-h2 {
+    font-size: 26pt;
+}
+#titles-guide-h3 {
+    font-size: 22pt;
+}
+#titles-guide-h4 {
+    font-size: 20pt;
+}
+#titles-guide-h5 {
+    font-size: 13pt;
+}
+#titles-guide-h6 {
+    font-size: 11pt;
+}
+#paragraph {
+    margin-top: 2rem;
+}
