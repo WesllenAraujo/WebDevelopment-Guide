@@ -6,6 +6,7 @@
     <title>HTML Guide</title>
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
 </head>
 <body>
     <main id="content">
@@ -28,32 +29,36 @@
             <h1 id="learnings-title">Aprendizagens</h1>
             <section id="guides-group">
                 <section id="titles-guide" class="guides">
-                    <h1 class="guides-titles">Tags de Títulos</h1>
-                    <p class="guides-text">As tags de título são uma das tags mais usadas no desenvolvimento web, pois ela destaca um texto comum tornando-o maior e as vezes em negrito. As tags de título possuem outra tag de fechamento, ela é composta por um "\" antes do nome da tag. Um exemplo de tag de título é o próprio título desse tópico! Existem, atualmente, 6 tipos de títulos no HTML5 usado no ano de 2023. As tags de título possuem uma sintaxae muito simples, composta por um "h" e um número de 1 a 6. Vale destacar quanto maior o número, maior será o título e mais destacado ele será. Veja um exemplo das tags de título abaixo:</p>
-                    <div id="titles-guide-group">
-                        <ul id="titles-menu">
-                            <li><h1 id="titles-guide-h1">Título 1 (h1)</h1></li>
-                            <li><h2 id="titles-guide-h2">Título 2 (h2)</h2></li>
-                            <li><h3 id="titles-guide-h3">Título 3 (h3)</h3></li>
-                            <li><h4 id="titles-guide-h4">Título 4 (h4)</h4></li>
-                            <li><h5 id="titles-guide-h5">Título 5 (h5)</h5></li>
-                            <li><h6 id="titles-guide-h6">Título 6 (h6)</h6></li>
-                        </ul>
+                    <div class="guides-text-group">
+                        <h1 class="guides-titles">Tags de Títulos</h1>
+                        <p class="guides-text">As tags de título são uma das tags mais usadas no desenvolvimento web, pois ela destaca um texto comum tornando-o maior e as vezes em negrito. As tags de título possuem outra tag de fechamento, ela é composta por um "\" antes do nome da tag. Um exemplo de tag de título é o próprio título desse tópico! Existem, atualmente, 6 tipos de títulos no HTML5 usado no ano de 2023. As tags de título possuem uma sintaxae muito simples, composta por um "h" e um número de 1 a 6. Vale destacar quanto maior o número, maior será o título e mais destacado ele será. Veja um exemplo das tags de título abaixo:</p>
+                        <div id="titles-guide-group">
+                            <ul id="titles-menu">
+                                <li><h1 id="titles-guide-h1">Título 1 (h1)</h1></li>
+                                <li><h2 id="titles-guide-h2">Título 2 (h2)</h2></li>
+                                <li><h3 id="titles-guide-h3">Título 3 (h3)</h3></li>
+                                <li><h4 id="titles-guide-h4">Título 4 (h4)</h4></li>
+                                <li><h5 id="titles-guide-h5">Título 5 (h5)</h5></li>
+                                <li><h6 id="titles-guide-h6">Título 6 (h6)</h6></li>
+                            </ul>
+                        </div>
                     </div>
                     <img src="./src/img/titles.png" alt="Titles in code" class="guides-images">
-                    <p class="guides-text">OBS: O tamanho da tag h1 pode variar conforme onde está localizada, mas nada que um CSS não resolva!</p>
                 </section>
                 <section id="paragraph-guide" class="guides">
+                    <div class="guides-text-group">
                         <h1 class="guides-titles">Tag de Parágrafo</h1>
                         <p class="guides-text">A tag de parágafo, junto com as tags de títulos, são muito utilizadas no desenvolvimento web. Sua sintaxe é super simples, apenas um "p". Esse "p" da tag se relaciona com a palavra parágrafo em inglês, "paragraph". Um exemplo de tag de parágrafo:</p>
-                        <p id="paragraph">Isso é um paragrafo!</p>
-
-                        <img src="./src/img/paragraph.png" alt="Paragraph in code" class="guides-images">
+                        <p id="paragraph">Isso é um parágrafo!</p>
+                    </div>
+                    <img src="./src/img/paragraph.png" alt="Paragraph in code" class="guides-images" id="paragraph-image">
                 </section>
                 <section id="image-guide" class="guides">
+                    <div class="guides-text-group">
                         <h1 class="guides-titles">Tag de Imagem</h1>
                         <p class="guides-text">A tag de imagem, ou "img" é também é muito usada. Sua sintaxe é um pouco mais complexa que as demais, mas não muito. Sua sintaxe é composta pelo nome da tag, "img", após isso um "src" qeu é o endereço da imagem, e por fim e opcional, um "alt", ou também chamado de texto altenativo. Esse texto alternativo será visível na tela do usuário caso o endereçamento da imagem esteja incorreto, mas é aconselhado usar o alt pois deixa nosso site acessível para pessoas com deficiência!</p>
-                        <img src="./src/img/html.png" alt="HTML code" class="guides-images">
+                    </div>
+                    <img src="./src/img/html.png" alt="HTML code" class="guides-images">
                 </section>
             </section>
         </section>

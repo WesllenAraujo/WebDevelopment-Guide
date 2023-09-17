@@ -12,6 +12,7 @@ body {
     margin: 1rem;
 }
 #header {
+    width: 100%;
     padding: 1rem;
     display: flex;
     justify-content: space-around;
@@ -49,10 +50,6 @@ body {
     justify-content: center;
     flex-wrap: wrap;
 }
-#guides-group {
-    display: flex;
-    gap: 1rem;
-}
 #learnings-title {
     font-size: 2rem;
     text-align: center;
@@ -65,11 +62,25 @@ body {
 }
 .guides {
     margin: 2rem 0;
-    width: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border: 1px solid #ab8ddc;
+    padding: .5rem;
 }
 .guides-images {
-    width: 100%;
+    width: 50%;
+    height: 20rem;
     margin: 1rem 0;
+    display: flex;
+    margin: auto;
+}
+.image-location {
+    width: 100%;
+}
+#paragraph-image {
+    height: 10rem;
 }
 .guides-titles {
     font-size: 2rem;
@@ -78,6 +89,12 @@ body {
 }
 .guides-text {
     font-size: 1.2rem;
+    margin: 2rem;
+    width: 40rem;
+}
+.guides-text-group {
+    display: flex;
+    flex-direction: column;
 }
 #titles-menu {
     list-style-type: circle;
@@ -106,4 +123,5 @@ body {
 }
 #paragraph {
     margin-top: 2rem;
+    margin-left: 2rem;
 }

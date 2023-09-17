@@ -1,0 +1,57 @@
+@media(max-width: 1050px) {
+    .guides-text {
+        width: 80%;
+    }
+}
+@media(max-width: 950px) {
+    .guides-text {
+        font-size: 1.5rem;
+    }
+}
+@media(max-width: 700px) {
+    #header-menu {
+        gap: 1rem;
+        width: 100%;
+    }
+    .about-paragraph {
+        width: 80%;
+    }
+    .guides-images {
+        margin-top: 2rem;
+        width: 100%;
+    }
+}
+@media(max-width: 850px) {
+    #header-menu {
+        gap: .5rem;
+    }
+}
+@media(max-width: 550px) {
+    #header-menu {
+        font-size: 1.3rem;
+        gap: .5rem;
+    }
+}
+@media(max-width: 450px) {
+    #header-title {
+        font-size: 1.5rem;
+    }
+    #header-menu {
+        font-size: 1rem;
+    }
+    .guides-text {
+        width: 90%;
+        margin-left: 1rem;
+    }
+    .guides-images {
+        height: 10rem;
+    }
+    #paragraph-image {
+        height: 5rem;
+    }
+}
+@media(max-width: 395px) {
+    #header-menu {
+        font-size: .85rem;
+    }
+}
