@@ -23,6 +23,8 @@ Updates log:
 
 Update 1.0 (16/09/2023): Adicionado guia de Front-End: tags de Título, parágafos e images.
 
-Update 1.1v (17/09/2023): Adicionado mais estilos no CSS, alguns ajustes e, o mais importante, foi adicionado a responsividade do site
+Update 1.1v (17/09/2023): Adicionado mais estilos no CSS, alguns ajustes e, o mais importante, foi adicionado a responsividade do site.
 
-Last update: 1.1v 17/09/2023.
+Update 1.2v (22/09/2023): Adicionado mais guias de tags e o da responsividade do site foi resolvido.
+
+Last update: 1.2v (22/09/2023).
